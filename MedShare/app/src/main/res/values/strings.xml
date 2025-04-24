@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Med Share</string>
+    <string name="share_button">Share Medicines</string>
+    <string name="request_button">Request Medicines</string>
+    <string name="interaction_text">RECENT INTERACTIONS</string>
+    <string name="view_all">View All</string>
+    <string name="profile_text">Profile</string>
+    <string name="user_name">USERNAME</string>
+    <string name="email_address">EMAIL ADDRESS</string>
+    <string name="pass_word">PASSWORD</string>
+    <string name="hostel_name">HOSTEL NAME</string>
+    <string name="hostel_block">HOSTEL BLOCK</string>
+    <string name="hostel_floor">HOSTEL FLOOR</string>
+    <string name="room_number">ROOM NUMBER</string>
+</resources>
