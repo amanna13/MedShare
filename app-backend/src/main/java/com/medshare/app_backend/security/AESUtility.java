@@ -1,5 +1,6 @@
 package com.medshare.app_backend.security;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import javax.crypto.Cipher;
@@ -9,7 +10,10 @@ import java.util.Base64;
 @Component
 public class AESUtility {
     private static final String ALGORITHM = "AES";
-    private static final String SECRET_KEY = "0123456789abcdef0123456789abcdef";
+
+    @Value("${app.security.secret-key}")
+    private static String SECRET_KEY;
+
     public static String encrypt(String data) {
         try{
             SecretKeySpec keySpec = new SecretKeySpec(SECRET_KEY.getBytes(), ALGORITHM);

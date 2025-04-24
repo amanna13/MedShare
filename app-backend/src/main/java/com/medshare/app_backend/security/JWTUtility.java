@@ -5,13 +5,17 @@ import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.JWTVerificationException;
 import com.auth0.jwt.interfaces.DecodedJWT;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
 @Component
 public class JWTUtility {
-    private final String secretKey = "jr4kh3j634j643n6346nj63nq";
+
+    @Value("${app.security.jwt-secret-key}")
+    private String secretKey;
+
     private final long expirationTime = 1000 * 60 * 60 * 24;
 
     public String generateToken(String userName) {
