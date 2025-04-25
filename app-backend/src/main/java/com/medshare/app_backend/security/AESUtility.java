@@ -11,8 +11,13 @@ import java.util.Base64;
 public class AESUtility {
     private static final String ALGORITHM = "AES";
 
-    @Value("${app.security.secret-key}")
+
     private static String SECRET_KEY;
+
+    @Value("${app.security.secret-key}")
+    public void setSecretKey(String SECRET_KEY){
+        AESUtility.SECRET_KEY = SECRET_KEY;
+    }
 
     public static String encrypt(String data) {
         try{

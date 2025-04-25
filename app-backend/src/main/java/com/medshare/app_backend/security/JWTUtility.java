@@ -13,8 +13,12 @@ import java.util.Date;
 @Component
 public class JWTUtility {
 
-    @Value("${app.security.jwt-secret-key}")
     private String secretKey;
+
+    @Value("${app.security.jwt-secret-key}")
+    public void setSecretKey(String secretKey) {
+        this.secretKey = secretKey;
+    }
 
     private final long expirationTime = 1000 * 60 * 60 * 24;
 
