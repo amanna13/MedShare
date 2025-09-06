@@ -17,18 +17,42 @@ MedShare is a peer-to-peer emergency medicine sharing platform designed for resi
 
 ## 💊Architechture Diagram 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c700f3af-88ac-40a8-bbe0-3c961a4b104b" width="800" />
+  <img src="https://github.com/user-attachments/assets/fb1dd191-3c27-4076-812c-65e88eecd6bd" width="800" />
 </p>
 
-## 💊Auth Screens
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/f7de5d0b-0b83-4d41-a59a-cf89c3c3c6b1" width="200" style="margin: 20px;" />
-  <img src="https://github.com/user-attachments/assets/6227d9aa-bbaf-4dc9-8490-63d94372cb00" width="200" style="margin: 20px;" />
-  <img src="https://github.com/user-attachments/assets/9a261d9b-8e02-44fb-8bd5-e4f301a0912d" width="200" style="margin: 20px;" />
-  <img src="https://github.com/user-attachments/assets/c1931ffb-40c8-4dbb-9e55-32c7800362d1" width="200" style="margin: 20px;" /> 
-</p>
+## 📱 MedShare App Screens
+### 🔐 Authentication Screens (Common)
+
+| Splash | Sign Up | Registration | Login |
+|--------|---------|--------------|-------|
+| <img src="./app_screenshots/Splash Screen.png" width="200"/> | <img src="./app_screenshots/SIGN UP.png" width="200"/> | <img src="./app_screenshots/REGISTRATION DETAILS.png" width="200"/> | <img src="./app_screenshots/LOGIN.png" width="200"/> |
+
+### 🤝 Receiver Flow
+
+| Homepage (Initial) | Search Medicines 1 | Search Medicines 2 | Sharing Confirmed by Sender |
+|---------------------|--------------------|--------------------|----------------------------|
+| <img src="./app_screenshots/HOMEPAGE(initial).jpg" width="200"/> | <img src="./app_screenshots/Search for medicines-1.jpg" width="200"/> | <img src="./app_screenshots/Search for medicines-2.jpg" width="200"/> | <img src="./app_screenshots/HOME PAGE-final.jpg" width="200"/> |
+
+| OTP Receiver | P2P Sharing Complete |
+|--------------|----------------------|
+| <img src="./app_screenshots/OTP-RECIEVER.jpg" width="200"/> | <img src="./app_screenshots/P2P SHARING COMPLETED.jpg" width="200"/> |
+
+### 👤 Sharer Flow
+
+| Homepage (Initial) | Incoming Request | Sharing Confirmed (Sender) |
+|---------------------|------------------|----------------------------|
+| <img src="./app_screenshots/HOMEPAGE(initial).jpg" width="200"/> | <img src="./app_screenshots/INCOMING MEDICINE REQUEST.jpg" width="200"/> | <img src="./app_screenshots/SHARING CONFIRMED- SENDER.jpg" width="200"/> |
+
+| OTP Sender | P2P Sharing Complete |
+|------------|----------------------|
+| <img src="./app_screenshots/OTP-SENDER.jpg" width="200"/> | <img src="./app_screenshots/P2P SHARING COMPLETED.jpg" width="200"/> |
+
+### 📑 Other Screens
+
+| Share Medicine | History Page | 
+|----------------|--------------|
+| <img src="./app_screenshots/SHARE MEDICINE DETAILS.jpg" width="200"/> | <img src="./app_screenshots/HISTORY PAGE.jpg" width="200"/> |
+
 
 ## 💊User Design Flow 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/00fcde53-deb6-42c0-984d-c831012ee21a" width="800" />
-</p>
+Pending...
