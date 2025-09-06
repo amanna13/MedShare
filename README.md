@@ -17,7 +17,7 @@ MedShare is a peer-to-peer emergency medicine sharing platform designed for resi
 
 ## 💊Architechture Diagram 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fb1dd191-3c27-4076-812c-65e88eecd6bd" width="800" />
+  <img src="./UI FLOWS/MEDCINE SHARING APP ARCHITECTURE.jpg" width="800" />
 </p>
 
 ## 📱 MedShare App Screens
@@ -55,4 +55,6 @@ MedShare is a peer-to-peer emergency medicine sharing platform designed for resi
 
 
 ## 💊User Design Flow 
-Pending...
+<p align="center">
+  <img src="./UI FLOWS/UI FLOW FRAME.jpg" width="800" />
+</p>
